@@ -20,7 +20,7 @@ render() {
   </div>
   <Clock />
   <div>
-  <input placeholder='new date' onChange= {event =>this.setState({newDeadline: event.target.value})} />
+  <input placeholder='new date' onChange={event =>this.setState({newDeadline: event.target.value})} />
   <button onClick={() =>this.changeDeadline()}>Submit</button>
   </div>
   </div>
